@@ -1,0 +1,114 @@
+.login {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.homeIcon {
+  font-size: 14px;
+}
+.rightIcon {
+  font-size: 10px;
+}
+.login_icon {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(167, 167, 167);
+}
+
+.tittle {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 0;
+}
+.label {
+  margin-top: 30px;
+}
+
+.checkbox {
+  margin-top: 30px;
+  background-color: #88c74a;
+}
+.checkbox:checked:before {
+  background-color: green;
+}
+.loginMenu {
+  align-items: center;
+  margin-left: 30%;
+}
+
+.inputStyle {
+  width: 550px;
+  height: 40px;
+}
+.stars {
+  color: red;
+}
+.passwordPart {
+  display: flex;
+}
+.forgetPassword {
+  color: #88c74a;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 28%;
+  margin-top: 3%;
+}
+.forgetPassword:active {
+  outline: none;
+  box-sizing: none;
+}
+.eyeSpan {
+  position: relative;
+  left: -4%;
+}
+.eyeIcon {
+  svg {
+    font-size: 10px;
+  }
+}
+.signInStyle {
+  width: 550px;
+  height: 45px;
+  background-color: #88c74a;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #88c74a;
+}
+
+.signInStyle:active,
+.signInStyle:hover {
+  outline: none;
+  border: 1px solid #88c74a;
+}
+
+.buttonRegister{
+  border: none;
+  font-family: "CeraPro Regular";
+  color: #252525;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 20%;
+  font-size: 16px;
+  background-color: white;
+}
+.buttonRegister:active,
+.buttonRegister:hover{
+  outline: none;
+  border: none;
+}
+.buttonRegister::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  content: "";
+}

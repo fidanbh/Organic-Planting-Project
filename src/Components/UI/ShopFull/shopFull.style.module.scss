@@ -1,0 +1,92 @@
+.aboutShop {
+  display: flex;
+  color: gray;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.aboutSpan {
+  color: black;
+  font-weight: 600;
+}
+
+.shopFullFlex {
+  display: flex;
+}
+.departments {
+  width: 350px;
+  &_h3 {
+    margin-left: 30px;
+  }
+}
+
+.depLists_parts li {
+  display: block;
+  text-decoration: none;
+}
+.depLists_parts li button {
+  border: none;
+  margin-left: 0;
+  margin-top: 3px;
+  background-color: white;
+  color: #636363;
+  font-size: 0.9em;
+  // font-family: "CeraPro Regular";
+  text-decoration: none;
+  // line-height: 2em;
+  // transition: 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  // text-transform: capitalize;
+}
+.gridDep {
+  margin-left: 3%;
+}
+.gridProducts {
+  margin-left: 0;
+}
+
+
+.depLine{
+  width: 200px;
+  color: #e6e4e4;
+  border-top: 1px solid #eeecec;
+  position: relative;
+}
+
+.depLine::after{
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 80px;
+  bottom: -5px;
+  border-top: 4px solid #7cc532;
+  font-weight: 900;
+}
+.gridLine{
+  width: 990px;
+  color: #e6e4e4;
+  border-top: 1px solid #eeecec;
+  position: relative;
+  margin-left: 3%;
+}
+
+.gridLine::after{
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 80px;
+  bottom: -5px;
+  border-top: 4px solid #7cc532;
+  font-weight: 900;
+}
+.line li button{
+  outline: none;
+}
+
+.line li button:active,
+.line li button:focus,
+.line li button:hover{
+  outline: none;
+  border: none;
+}

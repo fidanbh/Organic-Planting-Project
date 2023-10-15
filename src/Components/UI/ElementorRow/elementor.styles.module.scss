@@ -1,0 +1,148 @@
+.elementor {
+  background-color: #7ad03a;
+  margin: 0;
+  height: 120px;
+}
+
+.elementorMain {
+  display: flex;
+  margin-left: 120px;
+  color: white;
+  // justify-content: space-around;
+}
+
+.subscribe {
+  margin-top: 30px;
+  margin-left: 220px;
+  display: block;
+  flex: 0 0 41.66666667%;
+  max-width: 45.66666667%;
+  height: 40%;
+}
+.subscribe input {
+  height: 43px;
+}
+.subscribe button {
+  height: 45px;
+}
+
+.formSubscribe {
+  // display: flex;
+  // align-items: center;
+  // height: 3.125em;
+  // border: 0;
+  // border-radius: 999px 0 0 999px;
+  // padding: 0 1.875em;
+  // background-color: #98d25f;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  
+}
+.inputSubscribe {
+ 
+  background-color: #98d25f;
+  width: 80%;
+  height: 8.60em;
+  border: 0;
+  border-radius: 999px 0 0 999px;
+  padding-left: 25px;
+}
+.inputSubscribe::placeholder{
+  color: white;
+ font-size: 16px;
+ 
+ text-overflow: ellipsis;
+}
+
+.copyright {
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: flex;
+}
+.cardsImages {
+  margin-left: 40%;
+}
+
+.buttonStyle {
+  font-size: 0.8125em;
+  font-family: "CeraPro Bold";
+  height: 8.5em;
+  text-transform: uppercase;
+  // padding: 0 2.8125em;
+  background-color: white;
+  color: #88c74a;
+  border: #88c74a;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100px;
+  font-weight: 500;
+  margin-left: 0;
+}
+.buttonStyle:active,
+.buttonStyle:focus {
+  outline: none;
+}
+
+.inputSubscribe:active,
+.inputSubscribe:focus {
+  outline: none;
+}
+@media (max-width:1200px){
+.mainElementor{
+  max-width: 970px;
+}
+.elementorMain{
+  margin-right: 5%;
+}
+}
+@media (max-width:992px){
+  .mainElementor{
+    max-width: 750px;
+  }
+}
+@media (max-width:767px){
+  .mainElementor{
+    max-width: none;
+  }
+  .elementorMain{
+    margin-right: 15%;
+  }
+  .subscribe{
+    width: 500px;
+  }
+}
+
+@media (max-width:767px){
+  .mainElementor{
+    max-width: none;
+  }
+  .elementorMain{
+    margin-right: 15%;
+  }
+ .elementor{
+  margin-left: -15%;
+  font-size: 14px;
+ }
+ .subscribe{
+  margin-left: -5%;
+ }
+  .copyright{
+    display: flex;
+    flex-direction: column;
+  }
+ .cardsImages{
+  margin-left: -20%;
+  margin-top: 5%;
+ 
+ }
+}

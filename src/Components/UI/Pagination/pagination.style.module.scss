@@ -1,0 +1,35 @@
+.blogStyle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+}
+.blogImg {
+  width: 162px;
+  height: 230px;
+  object-fit: cover;
+}
+.pagination {
+  margin-left: 22%;
+}
+.pagination ul li {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  display: inline-block;
+  min-width: 32px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "CeraPro Regular", sans-serif;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  list-style: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.pagination ul li:hover {
+  color: #88c74a;
+}

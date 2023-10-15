@@ -1,0 +1,104 @@
+.stepBlockFlex {
+  display: flex;
+  margin-left: 30px;
+}
+.stepBlock {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  width: 30%;
+  
+}
+.stepBlock.active {
+  background: #88c74a;
+}
+.stepBlock::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -43px;
+  border: 1px solid #ebebeb;
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg);
+  background: #fff;
+  
+}
+
+.stepInside {
+  height: 60px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.stepInside::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 12px;
+  border: 1px solid #ebebeb;
+  border-width: 1px 1px 0 0;
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  z-index: 2;
+  
+}
+
+.stepInside h2 {
+  color: #252525;
+  font-size: 1.25em;
+  font-family: "CeraPro Medium";
+  line-height: 1;
+  display: block;
+  text-transform: uppercase;
+  position: unset;
+  z-index: 2;
+}
+
+.stepInside span {
+  color: rgba(45, 44, 64, 0.1);
+  font-size: 3em;
+  font-family: "CeraPro Bold";
+  line-height: 1;
+  position: absolute;
+  display: block;
+  right: 35px;
+  user-select: none;
+  z-index: 5;
+}
+
+.stepInside::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  border-style: solid;
+  border-color: #fff #fff #fff rgba(0, 0, 0, 0);
+  border-width: 30px;
+  width: 60px;
+  height: 60px;
+//   background-color: #fff;
+}
+
+.stepBlock::after {
+  content: "";
+  position: absolute;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #ededed;
+  width: calc(100% - 30px);
+  height: 100%;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  
+}

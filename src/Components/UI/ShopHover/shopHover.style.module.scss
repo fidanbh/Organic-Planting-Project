@@ -1,0 +1,46 @@
+.shopHover {
+  display: flex;
+  height: 40vh;
+  width: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 122px;
+  left: 35%;
+  padding: 1.25em 1.875em;
+  background-color: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 100;
+  font-size: 14px;
+}
+.parts {
+  // margin-left: 20px;
+}
+.textSpan {
+  // font-family: "CeraPro Medium";
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: 22px;
+}
+.list li{
+  margin-left: -15px;
+  margin-top: 10px;
+  display: block;
+}
+.list li a {
+  color: #636363;
+  font-size: 1.2em;
+  // font-family: "CeraPro Medium";
+  text-decoration: none;
+  line-height: 1;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: gray;
+}
+.list li a:hover{
+color: #88c74a;
+}

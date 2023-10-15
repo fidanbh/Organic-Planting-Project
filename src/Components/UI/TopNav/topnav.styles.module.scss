@@ -1,0 +1,150 @@
+.mainTop {
+  background-color: #f5f5f5;
+  margin: auto;
+  padding: 0;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  // background-color: #f5f5f5;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact_ul li {
+  display: inline-block;
+  color: #252525;
+  font-size: 1rem;
+  font-family: "CeraPro Regular";
+  line-height: 1;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.icon {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+
+.contactTwo {
+  display: flex;
+  justify-content: space-around;
+  &_social {
+    display: flex;
+  }
+}
+.contactTwo_social li {
+  display: inline-block;
+  text-decoration: none;
+  top: 0;
+  margin-right: 10px;
+  color: #252525;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 400;
+}
+.contactTwo_social li:hover {
+  color: #88c74a;
+}
+
+.verticalLine {
+  // content: "|";
+  padding: 0 0.9375em;
+  line-height: 1;
+  color: #ebebeb;
+}
+.login{
+  margin-right: 80px;
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+  a{
+    color: black;
+  }
+}
+.login a:hover{
+  color: #88c74a;
+}
+.language {
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.iconItem {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+}
+.loginIcon{
+  margin-top: 30px;
+}
+
+// @media only screen and (max-width: 1200px) {
+//   body {
+//     width: 1000px;
+//     font-size: 0.8em;
+//   }
+//   .topNav{
+//     margin-left: -4%;
+//   }
+//   .contactTwo{
+//     margin-right: 20%;
+//   }
+//   // .contactTwo_social{
+//   //   margin-left: -10%;
+//   // }
+// }
+// @media only screen and (max-width: 300px) {
+//   body {
+//     width: 500px;
+//     font-size: 0.5em;
+//   }
+//   .topNav{
+//     margin-left: 20px;
+//   }
+//   .login{
+//     margin-right: -20%;
+//   }
+// }
+// @media only screen and (max-width: 768px) {
+//   // body {
+//   //   width: 500px;
+//   //   font-size: 0.5em;
+//   // }
+//   .mainSearch {
+//  display: none;
+//   }
+// }
+@media (max-width: 1200px) {
+  .mainTop {
+    max-width: 970px;
+    margin-left: 10px;
+  }
+  .topNav{
+    margin-left: 25px;
+  }
+  .contactTwo{
+    margin-left: 5%;
+  }
+}
+@media (max-width: 992px) {
+  .mainTop {
+    max-width: 750px;
+    font-size: 0.7em;
+  }
+  .topNav{
+    margin-left: -3%;
+  }
+  .contactTwo{
+    margin-left: -5%;
+  }
+}
+@media (max-width: 767px) {
+  .mainTop {
+    display: none;
+  }
+}

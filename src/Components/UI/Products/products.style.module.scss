@@ -1,0 +1,233 @@
+.dealStyle {
+  text-align: center;
+  margin-top: 35px;
+}
+.dealText {
+  font-size: 36px;
+}
+.productsDealDecoration {
+  width: 80px;
+  height: 3px;
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  background-color: green;
+  //   margin-left: 46%;
+  text-align: center;
+}
+.categories {
+  text-align: center;
+  margin-top: 20px;
+}
+.categoriesList {
+  display: flex;
+  margin-left: 33%;
+  font-weight: 700;
+
+  div {
+    margin-left: 20px;
+  }
+}
+.categoriesLiStyle::marker div{
+  text-decoration: none;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  // display: grid;
+  // grid-template-columns: auto auto auto auto;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.cardStyle {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875em;
+  border: 1px solid #f5f5f5;
+  position: relative;
+  z-index: 6;
+  transition: 0.2s ease-in-out;
+  // height: 80%;
+  height: 250px;
+}
+.cardStyle:hover {
+  height: 280px;
+  border: 1px solid none;
+  // box-shadow: 3px 3px 3px 3px rgb(214, 214, 214);
+   //box-shadow: 0 2px 2px 2px rgb(223, 221, 221),
+   box-shadow: 0 5px 5px 5px #F6F7FD;
+ .products{
+  width: 150px;
+  height: 130px;
+  margin-top: 15px;
+ }
+}
+.products {
+  width: 180px;
+  height: 150px;
+  object-fit: contain;
+  margin-top: 40px;
+  transition: 0.2s ease-in-out;
+}
+
+.textStyle {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.nameStyle {
+  color: #88c74a;
+  font-size: 0.75em;
+  font-family: "CeraPro Black";
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  // margin-bottom: 5px;
+
+  font-weight: 800;
+}
+.tittleStyle {
+  // font-weight: 500;
+  // font-size: 18px;
+  color: #252525;
+  font-size: 1.125em;
+  font-family: "CeraPro Medium";
+  line-height: 1.3333333333em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0.2777777778em;
+  transition: 0.4s;
+}
+.priceStyle {
+  // font-weight: 500;
+  color: #252525;
+  font-size: 1.25em;
+  font-family: "CeraPro Medium";
+  line-height: 1;
+  transition: 0.4s ease;
+}
+
+.black {
+  color: black;
+}
+.green {
+  color: #88c74a;
+}
+
+.iconsFlex {
+  text-align: center;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  text-align: center;
+
+  svg {
+    margin-top: 12px;
+  }
+}
+.icon:hover {
+  background-color: #88c74a;
+  color: white;
+}
+
+.button {
+  border: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 16px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  font-family: "CeraPro Bold";
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(163, 163, 163);
+  outline: none;
+}
+
+
+.button:active,
+.button:focus {
+  outline: none;
+  color: #88c74a;
+}
+
+@media (max-width:1200px){
+.mainProduct{
+  max-width: 970px;
+}
+.cardStyle{
+  width: 180px;
+  margin-left: 10px;
+}
+}
+@media (max-width:992px){
+  .mainProduct{
+    max-width: 750px;
+    //margin-top: 12%;
+  }
+  .cards{
+    margin-left: 10px;
+  }
+  .cardStyle{
+    width: 280px;
+    margin-left: 0;
+  }
+}
+@media (max-width:767px){
+  .mainProduct{
+    max-width: none;
+  }
+  .cards{
+    margin-left: 18px;
+  }
+  .dealStyle{
+    text-align: center;
+  }
+  .categories{
+    margin-left: -15%;
+  }
+  .cardStyle{
+    width: 210px;
+    margin-left: 0;
+  }
+}
+@media (max-width:575px){
+  .mainProduct{
+    max-width: none;
+    margin-top:45%;
+  }
+  .cards{
+    margin-left: 40%;
+  }
+  .dealStyle{
+    margin-left: 40%;
+  }
+  .categories{
+    margin-left: -2%;
+  }
+  .cardStyle{
+    width: 650px;
+    
+  }
+}

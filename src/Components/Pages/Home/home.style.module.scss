@@ -1,0 +1,44 @@
+.numbers {
+  border: 1px solid grey;
+}
+
+.count {
+  margin-left: 450px;
+  margin-top: 80px;
+}
+.clockDiv {
+  display: flex;
+  margin-left: 7%;
+}
+.dateBorder {
+  margin-left: 15px;
+  height: 55px;
+  width: 45px;
+  margin-top: 30px;
+  border: 2px solid #ebebeb;
+  border-radius: 0.625em;
+  text-align: center;
+  padding: 0.3125em 0.75em;
+  padding: 3px;
+}
+.clockStyle {
+  font-size: 1.875em;
+  font-family: "CeraPro Bold";
+  line-height: 1;
+  font-weight: 800;
+  color: #88c74a;
+  margin: 0;
+}
+.textColor {
+  
+  font-size: 16px;
+  color: gray;
+}
+
+
+
+@media (max-width:992px){
+  .count{
+    margin-left: 200px;
+  }
+}

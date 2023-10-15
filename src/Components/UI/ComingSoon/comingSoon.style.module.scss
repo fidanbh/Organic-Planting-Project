@@ -1,0 +1,67 @@
+.comingSoon {
+  background-image: url("https://i.hizliresim.com/ol65kw3.png");
+  //   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 90vw;
+  // background-image: url(/_next/static/media/bg.0e05451f.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.tittle {
+  margin-top: 55px;
+  // text-align: center;
+  margin-left: 40%;
+}
+.tittle_span {
+  margin-left: 35%;
+}
+.tittle_footer {
+  margin-left: 40%;
+  margin-top: 5%;
+
+  &_icons {
+    margin-left: 35.5%;
+    margin-top: 10px;
+  }
+}
+.social {
+  margin-top: 10px;
+}
+.comingSoon_social li {
+  display: inline-block;
+  text-decoration: none;
+  top: 0;
+  margin-right: 10px;
+  color: #252525;
+  font-size: 1.3em;
+  cursor: pointer;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ebebeb;
+  text-align: center;
+}
+.comingSoon_social li:hover {
+  color: #88c74a;
+}
+
+.clock {
+  display: flex;
+}
+
+.tittle_countdown {
+  margin-left: 320px;
+  margin-top: 100px;
+  color: #88c74a;
+}
+
+.clockColor {
+  color: #88c74a;
+  margin-left: 15px;
+}

@@ -1,0 +1,25 @@
+.swiper-pagination-color{
+    color: green;
+}
+@media only screen and (max-width: 768px) {
+    .mySwiper{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 750px;
+        left: -14%;
+    }
+    .--swiper-navigation-size{
+        font-size: 18px;
+    }
+   .swiper-button-prev{
+    right: 10%;
+   }
+   /* .swiper-button-next{
+    left: -5%;
+   } */
+   /* .img{
+    width: 768px;
+    height: 500px;
+   } */
+  }

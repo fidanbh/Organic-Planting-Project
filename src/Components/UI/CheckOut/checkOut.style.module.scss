@@ -1,0 +1,98 @@
+.checkout{
+  display: flex;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+.contactUsh4{
+  color: rgb(167, 167, 167);
+}
+.homeIcon{
+  font-size: 14px;
+}
+.rightIcon{
+  font-size: 10px;
+}
+.inputName{
+  display: flex;
+}
+.inputLast{
+  margin-left: 15px;
+}
+.input{
+  width: 350px;
+  height: 28px;
+  background-color: rgb(238, 243, 243);
+  outline: none;
+  border: 1px solid rgb(238, 243, 243);
+  padding: 10px;
+}
+.input:hover,
+.input:active{
+  outline: none;
+  border: 1px solid rgb(238, 243, 243);
+}
+.billing{
+  margin-left: 45px;
+}
+.inputCompany{
+  width: 735px;
+  height: 28px;
+  background-color: rgb(238, 243, 243);
+  outline: none;
+  border: 1px solid rgb(238, 243, 243);
+  padding: 10px;
+}
+.textAreaDiv{
+  margin-top: 15px;
+}
+// .total{
+//   margin-top: 25px;
+// }
+.textarea{
+  width: 735px;
+  height: 90px;
+  background-color: rgb(238, 243, 243);
+  outline: none;
+  border: 1px solid rgb(238, 243, 243);
+  padding: 10px;
+}
+.cartIcons {
+  display: flex;
+  margin-left: 30px;
+}
+// .trBody{
+//   margin-bottom: 55px;
+// }
+.buttonShop {
+  font-size: 0.8125em;
+  font-family: "CeraPro Bold";
+  height: 3.4375em;
+  text-transform: uppercase;
+  padding: 0 2.8125em;
+  background-color: #88c74a;
+  color: white;
+  border: #88c74a;
+  margin-top: 25px;
+  border-radius: 25px;
+  font-weight: 500;
+
+}
+
+.buttonShop:active,
+.buttonShop:focus {
+  outline: none;
+}
+.redSpan{
+  color: red;
+  font-size: 16px;
+}
+label{
+  margin-top: 10%;
+}
+.labelStyle{
+  margin-top: 15px;
+}
+.priceColor{
+  color: #88c74a;
+  font-weight: bold;
+}

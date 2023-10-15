@@ -1,0 +1,92 @@
+.introduction {
+  display: flex;
+  margin-top: 8%;
+}
+
+.bgImage {
+  width: 519px;
+  height: 450px;
+  text-align: center;
+}
+.bgImage img {
+  height: 16.5625em;
+  width: 23.125em;
+  object-fit: contain;
+  // margin-bottom: 2.1875em;
+  margin-top: 20%;
+}
+
+.buttonShop {
+  font-size: 0.8125em;
+  font-family: "CeraPro Bold";
+  height: 3.4375em;
+  text-transform: uppercase;
+  padding: 0 2.8125em;
+  background-color: #88c74a;
+  color: white;
+  border: #88c74a;
+  margin-top: 25px;
+  border-radius: 25px;
+  font-weight: 500;
+  visibility: hidden;
+  // animation-name: topBottom;
+  // animation-duration: 5s;
+  // animation-timing-function: linear;
+}
+
+.buttonShop:active,
+.buttonShop:focus {
+  outline: none;
+}
+
+.bgImage:hover{
+  .buttonShop{
+    visibility: visible;
+    top: 5%;
+    animation-name: buttonEffect;
+    animation-duration: 1s;
+  }
+}
+@keyframes buttonEffect{
+  0%{
+    top: 10%;
+  }
+  50%{
+    top: 8%;
+  }
+  100%{
+    top: 5%;
+  }
+}
+
+@media (max-width:1200px){
+.introduction{
+  max-width: 970px;
+}
+}
+@media (max-width:992px){
+  .introduction{
+    max-width: 750px;
+  }
+  .introduction{
+    display: flex;
+    flex-direction: column;
+  }
+  .bgImage {
+    width: 720px;
+    height: 450px;
+    text-align: center;
+  }
+  .buttonShop{
+    visibility: visible;
+  }
+}
+@media (max-width:767px){
+  .introduction{
+    max-width: none;
+  }
+  .buttonShop{
+    visibility: visible;
+    margin-top: -18%;
+  }
+}

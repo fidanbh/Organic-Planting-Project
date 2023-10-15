@@ -1,0 +1,122 @@
+.footerSocial {
+  margin-left: -55px;
+}
+.footerSocial li {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ebebeb;
+
+  svg {
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 10px;
+  }
+}
+.footerSocial li:hover {
+  background-color: #88c74a;
+  color: white;
+}
+
+.tittle {
+  color: #252525;
+  font-size: 2.25em;
+  font-family: "CeraPro Bold";
+  line-height: 1.3333333333em;
+  margin-bottom: 0.2777777778em;
+  text-align: center;
+}
+.image {
+  width: 839px;
+  height: 538px;
+  object-fit: contain;
+  margin-left: 20%;
+}
+.text {
+  color: #252525;
+  font-size: 1rem;
+  font-family: "CeraPro Regular";
+  line-height: 1.875em;
+  margin-bottom: 1.25em;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.theme {
+  color: #252525;
+  font-size: 1.5em;
+  font-family: "CeraPro Bold";
+  line-height: 1.5em;
+  margin-bottom: 0.8333333333em;
+  text-align: center;
+}
+.footerSocDiv {
+  margin-left: 15%;
+}
+.comments {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.leaveComment {
+  color: #636363;
+  font-size: 1.5em;
+  font-family: "CeraPro Regular";
+  line-height: 1;
+  margin-bottom: 1.6666666667em;
+  font-weight: 200;
+}
+.commentsForm input {
+  width: 839px;
+  height: 40px;
+  margin-top: 25px;
+  padding-left: 10px;
+  border: 1px solid #ebebeb;
+}
+.commentsForm input::placeholder {
+  font-size: 14px;
+  color: #ebebeb;
+}
+.commentsForm input:active,
+.commentsForm input:focus {
+  border: 1px solid #ebebeb;
+}
+.commentsForm textarea {
+  width: 839px;
+  height: 100px;
+  margin-top: 25px;
+  padding-left: 10px;
+  border: 1px solid #ebebeb;
+}
+
+.commentsForm textarea::placeholder {
+  font-size: 14px;
+  color: #ebebeb;
+}
+
+.buttonShop {
+  font-size: 0.8125em;
+  font-family: "CeraPro Bold";
+  height: 3.4375em;
+  text-transform: uppercase;
+  padding: 0 2.8125em;
+  background-color: #88c74a;
+  color: white;
+  border: #88c74a;
+  margin-top: 25px;
+  border-radius: 25px;
+  font-weight: 600;
+
+  // animation-name: topBottom;
+  // animation-duration: 5s;
+  // animation-timing-function: linear;
+}
+
+.buttonShop:active,
+.buttonShop:focus {
+  outline: none;
+}
